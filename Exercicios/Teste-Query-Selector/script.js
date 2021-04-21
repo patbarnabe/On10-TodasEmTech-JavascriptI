@@ -4,6 +4,8 @@ function mudarCor() {
     const mudaParagrafo = document.querySelector('#meuNome').innerHTML += " e eu tenho 25 anos.";
 
     const mudarEstiloSpan = document.querySelector('span').style.textDecoration = 'underline';
+
+    document.querySelector('*').style.background = "red";
 }
 
 
