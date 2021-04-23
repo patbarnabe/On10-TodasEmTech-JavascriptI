@@ -19,7 +19,18 @@ function mostrarDados(event) {
             <td>${dataCadastro}, ${horaCadastro}</td>
         </tr>
      `
+     
+     limparDados()
 } 
+
+function limparDados() {
+    document.getElementById('titulo').value="";
+    document.getElementById('autor').value="";
+    document.getElementById('isbn').value="";
+    document.getElementById('data').value="";
+    document.getElementById('paginas').value="";
+}
+
 
 document.querySelector('#botarDeletar').addEventListener('click', function deletarLivro(event){
     event.preventDefault();
